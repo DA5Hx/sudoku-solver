@@ -40,8 +40,6 @@ document.querySelector(".nine").addEventListener('click', e => {
 })
 
 window.addEventListener("keydown", e => {
-    console.log('1'+e.key+'2');
-    console.log(fill);
     switch (e.key) {
         case '1':
             fill = '1';
