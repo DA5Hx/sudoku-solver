@@ -68,6 +68,9 @@ window.addEventListener("keydown", e => {
         case '9':
             fill = '9';
             break;
+        case ' ':
+            fill = ' ';
+            break;
     }
 });
 
