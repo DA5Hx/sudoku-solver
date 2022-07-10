@@ -1172,9 +1172,9 @@ document.querySelector(".solve").addEventListener('click', e => {
                         if (j === 9) {
                             clearInterval(interval);
                         }
-                    }, 30 * j);
+                    }, 50 * j);
                 }
-            }, 60 * (i));
+            }, 50 * (i));
         }
     }
     else {
